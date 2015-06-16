@@ -1,0 +1,53 @@
+
+/* POLICES ECRITURE */
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Slab'), local('JosefinSlab'), url(http://themes.googleusercontent.com/static/fonts/josefinslab/v4/46aYWdgz-1oFX11flmyEfXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Josefin Slab Bold'), local('JosefinSlab-Bold'), url(http://themes.googleusercontent.com/static/fonts/josefinslab/v4/NbE6ykYuM2IyEwxQxOIi2Hl4twXkwp3_u9ZoePkT564.woff) format('woff');
+}
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Josefin Slab Italic'), local('JosefinSlab-Italic'), url(http://themes.googleusercontent.com/static/fonts/josefinslab/v4/etsUjZYO8lTLU85lDhZwUnpumDtkw9GHrrDfd7ZnWpU.woff) format('woff');
+}
+@font-face {
+  font-family: 'Josefin Slab';
+  font-style: italic;
+  font-weight: 700;
+  src: local('Josefin Slab Bold Italic'), local('JosefinSlab-BoldItalic'), url(http://themes.googleusercontent.com/static/fonts/josefinslab/v4/af9sBoKGPbGO0r21xJuly70qgHI2SEqiJszC-CVc3gY.woff) format('woff');
+}
+
+@font-face {
+  font-family: "Helvetica-W01-Roman";
+  src: url("fonts/ea95b44a-eab7-4bd1-861c-e73535e7f652.eot?#iefix");
+  src: url("fonts/ea95b44a-eab7-4bd1-861c-e73535e7f652.eot?#iefix") format("eot"),url("fonts/4021a3b9-f782-438b-aeb4-c008109a8b64.woff") format("woff"),url("fonts/669f79ed-002c-4ff6-965c-9da453968504.ttf") format("truetype"),url("fonts/d17bc040-9e8b-4397-8356-8153f4a64edf.svg#d17bc040-9e8b-4397-8356-8153f4a64edf") format("svg");
+}
+
+@font-face {
+  font-family: "Helvetica-W01-Bold";
+  src: url("fonts/f70da45a-a05c-490c-ad62-7db4894b012a.eot?#iefix");
+  src: url("fonts/f70da45a-a05c-490c-ad62-7db4894b012a.eot?#iefix") format("eot"),url("fonts/c5749443-93da-4592-b794-42f28d62ef72.woff") format("woff"),url("fonts/73805f15-38e4-4fb7-8a08-d56bf29b483b.ttf") format("truetype"),url("fonts/874bbc4a-0091-49f0-93ef-ea4e69c3cc7a.svg#874bbc4a-0091-49f0-93ef-ea4e69c3cc7a") format("svg");
+}
+
+@font-face {
+  font-family: "Helvetica-W01-Light";
+  src: url("fonts/717f8140-20c9-4892-9815-38b48f14ce2b.eot?#iefix");
+  src: url("fonts/717f8140-20c9-4892-9815-38b48f14ce2b.eot?#iefix") format("eot"),url("fonts/03805817-4611-4dbc-8c65-0f73031c3973.woff") format("woff"),url("fonts/d5f9f72d-afb7-4c57-8348-b4bdac42edbb.ttf") format("truetype"),url("fonts/05ad458f-263b-413f-b054-6001a987ff3e.svg#05ad458f-263b-413f-b054-6001a987ff3e") format("svg");
+}
+
+@font-face {
+    font-family: "segoe_printregular";
+    src: url("fonts/open-source/segoe_print-webfont.eot?#iefix");
+    src: url("fonts/open-source/segoe_print-webfont.eot?#iefix") format("eot"),
+    url("fonts/open-source/segoe_print-webfont.woff") format("woff"),
+    url("fonts/open-source/segoe_print-webfont.ttf") format("truetype"),
+    url("fonts/open-source/segoe_print-webfont.svg#f128ef28-daf3-477b-8027-0fd8bdad2b91") format("svg");
+}
