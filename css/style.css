@@ -5,6 +5,7 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
+      font-family: "Roboto","Helvetica","Arial",sans-serif;
 }
 
 
@@ -139,7 +140,12 @@ a {
 .row-separate {
     margin-top: 173px;
 }
-#about-title {
+#about-title, #contact-title {
     margin-bottom: 50px;
     text-align: center;
+    font-weight: 300;
+}
+
+.about_sentence {
+    font-size: 18px;
 }
