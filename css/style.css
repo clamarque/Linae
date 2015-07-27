@@ -50,7 +50,7 @@ body {
       width: 170px;
   }
 }
-@media (min-width: 430px){
+@media (max-width: 768px){
     img#logo {
   margin-top: -119px;
         margin-left: 0;
