@@ -8,12 +8,10 @@ body {
 }
 .navbar-default {
     background: transparent;
+    width: 170px;
 }
 .navbar-brand {
     float: none;
-}
-img#logo {
-    margin-top: -22px;
 }
 .navbar-collapse.collapse {
     width: 149px;
@@ -47,6 +45,11 @@ img#logo {
         border-right: 1px solid #414042;
         width: 170px;
     }
+    
+.thumbnail a>img,
+.thumbnail>img {
+    width: 100%;
+}
 }
 
 @media (max-width: 768px) {
@@ -85,10 +88,6 @@ a {
 
 
 
-.thumbnail a>img,
-.thumbnail>img {
-    width: 100%;
-}
 
 .row-separate {
     margin-top: 173px;
@@ -122,4 +121,7 @@ a {
 
 #section-contact p {
     color: #FFF;
+}
+#section-contact textarea {
+    width: 100%;
 }
