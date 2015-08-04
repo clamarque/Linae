@@ -127,3 +127,26 @@ a {
 #section-contact textarea {
     width: 100%;
 }
+
+#block1 p  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+}
+#block4 p  {
+    position: absolute;
+    top: 313px;
+    left: 0;
+    visibility: hidden;
+}
+.img-responsive:hover p {
+     color: #FFF;
+    font-size: 14px;
+    opacity: 0.9;
+    visibility: visible;
+    background: #414042;
+    padding: 97px 24px;
+    width: 100%;
+    cursor: pointer;
+}
