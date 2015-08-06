@@ -130,7 +130,12 @@ a {
     width: 100%;
     cursor: pointer;
 }
-
+ .row-separate {
+    margin-top: 173px;
+}
+#section-contact .row {
+    margin-top: 20px;
+}
 
  /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
@@ -159,7 +164,5 @@ a {
     .navbar-default {
         width: 170px;
     }
-    .row-separate {
-    margin-top: 173px;
-}
+   
 }
