@@ -45,8 +45,7 @@ body {
         width: 170px;
     }
     
-.thumbnail a>img,
-.thumbnail>img {
+.img-responsive {
     width: 100%;
 }
     .navbar-default {
