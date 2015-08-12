@@ -136,7 +136,12 @@ a {
 #section-contact .row {
     margin-top: 20px;
 }
-
+#section-contact p {
+ text-align: center;   
+}
+  .img-responsive {
+        width: 100%;
+    }
  /* Extra Small Devices, Phones */ 
     @media only screen and (min-width : 480px) {
         .row.row-separate {
@@ -158,9 +163,7 @@ a {
         border-right: 1px solid #414042;
         width: 170px;
     }
-    .img-responsive {
-        width: 100%;
-    }
+  
     .navbar-default {
         width: 170px;
     }
