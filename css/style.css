@@ -129,6 +129,9 @@ a {
 #section-contact p {
     text-align: center;
 }
+.img-responsive:hover {
+    background: rgba(0,0,0,0.5);
+}
 
 
 /* Extra Small Devices, Phones */
@@ -165,6 +168,7 @@ a {
     padding: 97px 24px;
     width: 100%;
     cursor: pointer;
+            height: 33.33%;
 }
 }
 
