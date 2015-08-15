@@ -82,7 +82,12 @@ a {
 #section-contact textarea {
     width: 100%;
 }
-
+#section-contact button {
+    border: none;
+    background: transparent;
+    color: #FFF;
+    border-bottom: 1px solid #FFF;
+}
 
 #section-contact #icon-place {
     margin: 15px auto;
