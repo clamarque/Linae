@@ -1,6 +1,17 @@
 body {
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
 }
+
+a {
+    color: #FFF;
+}
+
+.offset-0 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
 /*** NAV ***/
 
 .navbar-fixed-top {
@@ -31,45 +42,11 @@ body {
     margin-bottom: 1px;
     background: none;
 }
-/*
- * Sidebar
- */
-/* Hide for mobile, show later */
 
-
-
-
-@media (max-width: 768px) {
-    img#logo {
-        display: none;
-    }
-    .navbar-collapse.collapse {
-        width: 100%;
-        background-color: rgba(0, 0, 0, 0.7);
-        text-align: center;
-    }
+.img-responsive {
+    width: 100%;
+    height: auto;
 }
-
-a {
-    color: #FFF;
-}
-
-.thumbnail {
-    display: block;
-    margin: 0;
-    padding: 0;
-    border: inherit;
-    border-radius: inherit;
-    line-height: inherit;
-    transition: inherit;
-}
-
-.offset-0 {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-
 
 #about-title,
 #contact-title {
@@ -106,6 +83,20 @@ a {
     width: 100%;
 }
 
+
+#section-contact #icon-place {
+    margin: 15px auto;
+    display: block;
+}
+#section-contact #icon-phone {
+    display: block;
+    margin: -10px auto 0;
+}
+#section-contact #icon-send {
+    display: block;
+    margin: -10px auto;
+}
+
 #block1 p {
     position: absolute;
     top: 0;
@@ -120,34 +111,28 @@ a {
     visibility: hidden;
 }
 
-.img-responsive:hover p {
-    color: #FFF;
-    font-size: 14px;
-    opacity: 0.9;
-    visibility: visible;
-    background: #414042;
-    padding: 97px 24px;
-    width: 100%;
-    cursor: pointer;
-}
- .row-separate {
+
+
+.row-separate {
     margin-top: 173px;
 }
+
 #section-contact .row {
     margin-top: 20px;
 }
+
 #section-contact p {
- text-align: center;   
+    text-align: center;
 }
-  .img-responsive {
-        width: 100%;
+
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {
+    .row.row-separate {
+        margin-top: 20px;
     }
- /* Extra Small Devices, Phones */ 
-    @media only screen and (min-width : 480px) {
-        .row.row-separate {
-            margin-top: 20px;
-        }
-    }
+}
 
 @media (min-width: 768px) {
     .sidebar {
@@ -161,11 +146,30 @@ a {
         overflow-x: hidden;
         background-color: #414042;
         border-right: 1px solid #414042;
-        width: 170px;
+        /*width: 170px;*/
     }
-  
     .navbar-default {
-        width: 170px;
+        width: inherit;
     }
-   
+    #block1:hover p {
+    color: #FFF;
+    font-size: 14px;
+    opacity: 0.9;
+    visibility: visible;
+    background: #414042;
+    padding: 97px 24px;
+    width: 100%;
+    cursor: pointer;
+}
+}
+
+@media (max-width: 768px) {
+    img#logo {
+        display: none;
+    }
+    .navbar-collapse.collapse {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        text-align: center;
+    }
 }
