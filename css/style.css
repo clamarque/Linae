@@ -45,7 +45,7 @@ a {
 
 .img-responsive {
     width: 100%;
-    height: auto;
+   
 }
 
 #about-title,
@@ -170,6 +170,7 @@ a {
         cursor: pointer;
         height: 33.33%;
     }
+   
 }
 
 @media (max-width: 767px) {
@@ -183,6 +184,9 @@ a {
         width: 100%;
         background-color: rgba(0, 0, 0, 0.7);
         text-align: center;
+    }
+     .img-responsive {
+        height: auto;
     }
 }
 
