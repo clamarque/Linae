@@ -159,17 +159,7 @@ a {
         border-right: 1px solid #414042;
         height: 100%;
     }
-    #block1:hover p {
-        color: #FFF;
-        font-size: 14px;
-        opacity: 0.9;
-        visibility: visible;
-        background: #414042;
-        padding: 97px 24px;
-        width: 100%;
-        cursor: pointer;
-        height: 33.33%;
-    }
+   
    
 }
 
@@ -187,6 +177,19 @@ a {
     }
      .img-responsive {
         height: auto;
+    }
+}
+@media (min-width: 992px){
+     #block1:hover p {
+        color: #FFF;
+        font-size: 14px;
+        opacity: 0.9;
+        visibility: visible;
+        background: #414042;
+        padding: 64px 24px;
+        width: 100%;
+        cursor: pointer;
+        height: 33.33%;
     }
 }
 
