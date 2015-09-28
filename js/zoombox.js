@@ -188,7 +188,7 @@ function gallery(){
             return false;
         }
         for(var i in imageset){
-            var imgSrc = zoombox_path+'img/video.png';
+            var imgSrc = zoombox_path+'../img/video.png';
             var img = $('<img src="'+imgSrc+'" class="video gallery'+(i*1)+'"/>');
             if(filtreImg.test(imageset[i].attr('href'))){
                imgSrc = imageset[i].attr('href')
