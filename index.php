@@ -1,3 +1,52 @@
+<?php
+if(!empty($_POST)) {
+  extract($_POST);
+  $valid = true;
+  if(empty($nom)){  $valid=false; $erreurnom="Nom et prenom obligatoire";}
+  if(!preg_match("/^[a-z0-9\-_.]+@[a-z0-9\-_.]+\.[a-z]{2,3}$/i",$email))
+   {
+    $valid=false;
+    $erreurmail ="votre mail n'est pas valide";
+   }
+  if(empty($email)){  $valid=false; $erreurmail="mail obligatoire";}
+  if(empty($phone)){  $valid=false; $erreurphone="Numéro de téléphone obligatoire";}
+  if(empty($texte)){  $valid=false; $erreurtexte="message obligatoire"; }
+  if($valid){ 
+     $to = "chabox59@gmail.com";
+    //=====Définition du sujet.
+    $subject = $nom. " a contacté le site";
+    //=========
+    //=====Création du header de l'e-mail.
+    $header = "From: $nom <$email>";
+    //==========
+    //=====Création du message.
+    $message = "\n";
+    $message.= "Content-Type: multipart/alternative;";
+    $message.= "\n";
+    //=====Ajout du message au format texte.
+    $message.= "Content-Type: text/plain; charset=\"ISO-8859-1\"";
+    $message.= "Content-Transfer-Encoding: 8bit";
+    $message.= "\n";
+    $message = "Nom Prenom: $nom \nEmail: $email - Numéro de téléphone: $phone\n\n$texte"; 
+    //========== 
+    $nom = stripslashes($nom);
+    $email= stripcslashes($email);
+    $phone= stripcslashes($phone);
+    $texte= stripcslashes($texte);
+
+    if(mail($to,$subject,$message,$header)){
+      $erreur = "Votre message nous est bien parvenu";
+      unset($nom);
+      unset($email);
+      unset($phone);
+      unset($texte);
+    }
+    else{
+      $erreur = "Une erreur est survenue";
+    }
+  }
+}
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -298,17 +347,23 @@
                 </div>
                 <div class="row" id="section-contact">
                     <h1 id="contact-title">Contact</h1>
-                    <form action="mailto:chabox59@gmail.com" method="post">
+                    <form action="index.php" method="post">
                         <div class="col-xs-12 col-md-3">
-                            <input type="text" placeholder="Nom Prénom" name="Nom">
+                            <input type="text" placeholder="Nom Prénom" name="Nom" value="<?php if(isset($nom)) echo $nom; ?>">
                             <br/>
-                            <input type="email" placeholder="Mail" name="Mail">
+                            <span id="error-message"><?php if(isset($erreurnom)) echo $erreurnom; ?></span>
                             <br/>
-                            <input type="tel" placeholder="Téléphone" name="Telephone">
+                            <input type="email" placeholder="Mail" name="email" value="<?php if(isset($email)) echo $email; ?>">
+                            <br/>
+                            <span id="error-message"><?php if (isset($erreurmail)) echo $erreurmail; ?></span>
+                            <br/>
+                            <input type="tel" placeholder="Téléphone" name="phone" value="<?php if(isset($phone)) echo $phone; ?>">
+                             <span id="error-message"><?php if (isset($erreurphone)) echo $erreurphone; ?></span>
                         </div>
                         <div class="col-xs-12 col-md-6">
-                            <textarea name="bodyMessage" id="bodyMessage" rows="9"></textarea>
-                            <button name="send">Envoyer</button>
+                            <textarea name="bodyMessage" id="bodyMessage" rows="9"><?php if(isset($texte)) echo $texte; ?></textarea>
+                            <span id="error-message"><?php if (isset($erreurtexte)) echo $erreurtexte; ?></span>
+                            <button name="send" type="submit">Envoyer</button>
                         </div>
                         <div class="col-xs-12 col-md-3">
                             <div class="row">
