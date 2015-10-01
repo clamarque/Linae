@@ -1,4 +1,4 @@
-<!--<?php
+<?php
 if(!empty($_POST)) {
   extract($_POST);
   $valid = true;
@@ -46,7 +46,7 @@ if(!empty($_POST)) {
     }
   }
 }
-?>-->
+?>
 <!DOCTYPE html>
 <html lang="fr">
 
