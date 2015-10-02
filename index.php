@@ -96,7 +96,7 @@ if(!empty($_POST)) {
                         </button>
 
                     </div>
-                    <img src="img/Graphisme/logo.jpg" alt="Logo" id="logo" class="img-responsive" />
+                    <img src="img/logo.jpg" alt="Logo" id="logo" class="img-responsive" />
 
                     <div class="navbar-collapse collapse">
                         <ul class="nav nav-sidebar" id="main-menu">
