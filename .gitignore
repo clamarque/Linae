@@ -5,5 +5,3 @@ gulpfile.js
 node_modules/
 # Ignorer tous les fichiers SCSS
 scss/*.scss
-#ignorer le dossier agarder
-agarder/
