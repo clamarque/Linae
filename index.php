@@ -12,7 +12,7 @@ if(!empty($_POST)) {
   if(empty($phone)){  $valid=false; $erreurphone="Numéro de téléphone obligatoire";}
   if(empty($texte)){  $valid=false; $erreurtexte="message obligatoire"; }
   if($valid){ 
-     $to = "chabox59@gmail.com";
+     $to = "linae83@gmail.com";
     //=====Définition du sujet.
     $subject = $nom. " a contacté le site";
     //=========
@@ -120,7 +120,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery1 column" href="img/Graphisme/Originals/1a.jpg">
                             <img src="img/Graphisme/1.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Identité visuelle pour un autoentrepreneur spécialisé dans la création de vêtements "faits main" pour enfants.</p>
                             </div>
                         </a>
                         <a class=" zoombox zgallery1" href="img/Graphisme/Originals/1b.jpg"></a>
@@ -131,7 +131,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery2 column" href="img/Graphisme/Originals/2a.jpg">
                             <img src="img/Graphisme/2.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Logo pour un pâtissier spécialiste de la confection de macarons hauts de gamme.</p>
                             </div>
                         </a>
                         <a class=" zoombox zgallery2" href="img/Graphisme/Originals/2b.jpg"></a>
@@ -142,7 +142,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery3 column" href="img/Graphisme/Originals/3a.jpg">
                             <img src="img/Graphisme/3.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Carte de visite et dépliant pour un ingénieur en environnement.</p>
                             </div>
                         </a>
                         <a class=" zoombox zgallery3" href="img/Graphisme/Originals/3b.jpg"></a>
@@ -152,7 +152,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery4 column" href="img/Graphisme/Originals/4a.jpg">
                             <img src="img/Graphisme/4.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Logo, cartes de visites et de correspondance ainsi que pochettes pour Per'Actis, un indépendant coach de vie.</p>
                             </div>
                         </a>
                         <a class=" zoombox zgallery4" href="img/Graphisme/Originals/4b.jpg"></a>
@@ -162,7 +162,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery5 column" href="img/Graphisme/Originals/5a.jpg">
                             <img src="img/Graphisme/5.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Rapport Développement Durable annuel pour SCLE SFE, une grande société pionnière de solutions énergétiques durables.</p>
                             </div>
                         </a>
                         <a class=" zoombox zgallery5" href="img/Graphisme/Originals/5b.png"></a>
@@ -172,7 +172,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery6 column" href="img/Graphisme/Originals/6a.jpg">
                             <img src="img/Graphisme/6.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Logo déclinable pour SP2A, entreprise oeuvrant dans l'énergie et l'eau sur le continent africain.</p>
                             </div>
                         </a>
                         <a class=" zoombox zgallery6" href="img/Graphisme/Originals/6b.jpg"></a>
@@ -182,7 +182,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery7 column" href="img/Graphisme/Originals/7a.jpg">
                             <img src="img/Graphisme/7.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Logo pour un architecte urbain.</p>
                             </div>
                         </a>
                         <a class=" zoombox zgallery7" href="img/Graphisme/Originals/7b.jpg"></a>
@@ -192,7 +192,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery8 column" href="img/Graphisme/Originals/8a.jpg">
                             <img src="img/Graphisme/8.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Logo et dépliant pour une animalerie de centre-ville spécialisée dans la vente de reptiles et d'animaux aquatiques.</p>
                             </div>
                         </a>
                         <a class=" zoombox zgallery8" href="img/Graphisme/Originals/8b.jpg"></a>
@@ -203,7 +203,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery9 column" href="img/Graphisme/Originals/9a.png">
                             <img src="img/Graphisme/9.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Visuels pour la promotion d'Aeromorning, un site internet sur l'actualité aéronautique.</p>
                             </div>
                         </a>
                         <a class=" zoombox zgallery9" href="img/Graphisme/Originals/9b.png"></a>
@@ -215,7 +215,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery11 column" href="img/illustrations/originals/1.jpg">
                             <img src="img/illustrations/1.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Dessin digital à la tablette graphique sur le thème du Petit Chaperon Rouge</p>
                             </div>
                         </a>
                     </div>
@@ -223,7 +223,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery12 column" href="img/illustrations/originals/2.jpg">
                             <img src="img/illustrations/2.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Aquarelle et crayons de couleur.</p>
                             </div>
                         </a>
                     </div>
@@ -231,7 +231,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery13 column" href="img/illustrations/originals/3.jpg">
                             <img src="img/illustrations/3.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Dessin digital à la tablette graphique. Adaptation inspirée d'un personnage existant.</p>
                             </div>
                         </a>
                     </div>
@@ -239,7 +239,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery14 column" href="img/illustrations/originals/4.jpg">
                             <img src="img/illustrations/4.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Sanguine, fusain et crayons de couleur.</p>
                             </div>
                         </a>
                     </div>
@@ -247,7 +247,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery15 column" href="img/illustrations/originals/5.jpg">
                             <img src="img/illustrations/5.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Peinture acrylique sur toile.</p>
                             </div>
                         </a>
                     </div>
@@ -255,7 +255,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery16 column" href="img/illustrations/originals/6.jpg">
                             <img src="img/illustrations/6.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Sanguine, crayons de couleur aquarellables et pastels secs.</p>
                             </div>
                         </a>
                     </div>
@@ -263,7 +263,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery17 column" href="img/illustrations/originals/7.jpg">
                             <img src="img/illustrations/7.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Dessin au crayon gris puis scanné pour colorisation digitale sur le thème d'Alice au Pays des Merveilles.</p>
                             </div>
                         </a>
                     </div>
@@ -271,7 +271,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery18 column" href="img/illustrations/originals/8.jpg">
                             <img src="img/illustrations/8.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Peinture digitale imitation acrylique et pinceaux secs.</p>
                             </div>
                         </a>
                     </div>
@@ -279,7 +279,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery19 column" href="img/illustrations/originals/9.jpg">
                             <img src="img/illustrations/9.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Lavis sur format raisin représentant un Gryphon.</p>
                             </div>
                         </a>
                     </div>
@@ -287,7 +287,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery20 column" href="img/illustrations/originals/10.jpg">
                             <img src="img/illustrations/10.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Dessin digital par tablette graphique.</p>
                             </div>
                         </a>
                     </div>
@@ -295,7 +295,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery21 column" href="img/illustrations/originals/11.jpg">
                             <img src="img/illustrations/11.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Aquarelle et crayons de couleur.</p>
                             </div>
                         </a>
                     </div>
@@ -303,7 +303,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery22 column" href="img/illustrations/originals/12.jpg">
                             <img src="img/illustrations/12.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Peinture acrylique sur papier spécial acrylique.</p>
                             </div>
                         </a>
                     </div>
@@ -311,7 +311,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery23 column" href="img/illustrations/originals/13.jpg">
                             <img src="img/illustrations/13.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Aquarelle sur papier spécial aquarelle.</p>
                             </div>
                         </a>
                     </div>
@@ -319,7 +319,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery24 column" href="img/illustrations/originals/14.jpg">
                             <img src="img/illustrations/14.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Dessin digital à la tablette graphique.</p>
                             </div>
                         </a>
                     </div>
@@ -327,7 +327,7 @@ if(!empty($_POST)) {
                         <a class=" zoombox zgallery25 column" href="img/illustrations/originals/15.jpg">
                             <img src="img/illustrations/15.jpg" alt="" />
                             <div class="portfolio-hover-content">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam consequatur quia doloremque veritatis quis incidunt ex, unde enim rem quam officia vero harum, aut veniam ipsam cupiditate voluptates similique adipisci!</p>
+                                <p>Stylo bille noir et colorisation digitale.</p>
                             </div>
                         </a>
                     </div>
@@ -347,33 +347,30 @@ if(!empty($_POST)) {
                 </div>
                 <div class="row" id="section-contact">
                     <h1 id="contact-title">Contact</h1>
+                    <span class="error"><?php if(isset($erreur)) echo $erreur;?></span>
                     <form action="index.php" method="post">
                         <div class="col-xs-12 col-md-3">
-                            <input type="text" placeholder="Nom Prénom" name="Nom" value="<?php if(isset($nom)) echo $nom; ?>">
-                            <br/>
-                            <span id="error-message"><?php if(isset($erreurnom)) echo $erreurnom; ?></span>
-                            <br/>
-                            <input type="email" placeholder="Mail" name="email" value="<?php if(isset($email)) echo $email; ?>">
-                            <br/>
-                            <span id="error-message"><?php if (isset($erreurmail)) echo $erreurmail; ?></span>
-                            <br/>
-                            <input type="tel" placeholder="Téléphone" name="phone" value="<?php if(isset($phone)) echo $phone; ?>">
-                             <span id="error-message"><?php if (isset($erreurphone)) echo $erreurphone; ?></span>
+                            <span class="error-message"><?php if(isset($erreurnom)) echo $erreurnom; ?></span>
+                            <input type="text" placeholder="Nom Prénom" name="nom" id="nom" value="<?php if(isset($nom)) echo $nom; ?>">
+                            <span class="error-message"><?php if (isset($erreurmail)) echo $erreurmail; ?></span>
+                            <input type="email" placeholder="Mail" name="email" id="email" value="<?php if(isset($email)) echo $email; ?>">
+                            <span class="error-message"><?php if (isset($erreurphone)) echo $erreurphone; ?></span>
+                            <input type="tel" pattern="^((\+\d{1,3}(-| )?\(?\d\)?(-| )?\d{1,5})|(\(?\d{2,6}\)?))(-| )?(\d{3,4})(-| )?(\d{4})(( x| ext)\d{1,5}){0,1}$" placeholder="Téléphone" name="phone" id="phone" value="<?php if(isset($phone)) echo $phone; ?>">
                         </div>
                         <div class="col-xs-12 col-md-6">
-                            <textarea name="bodyMessage" id="bodyMessage" rows="9"><?php if(isset($texte)) echo $texte; ?></textarea>
-                            <span id="error-message"><?php if (isset($erreurtexte)) echo $erreurtexte; ?></span>
+                            <textarea name="texte" id="texte" rows="9"><?php if(isset($texte)) echo $texte; ?></textarea>
+                            <span class="error-message"><?php if (isset($erreurtexte)) echo $erreurtexte; ?></span>
                             <button name="send" type="submit">Envoyer</button>
                         </div>
                         <div class="col-xs-12 col-md-3">
                             <div class="row">
-                                <p>Joannie RICHAR  <br/> 21 rue de la plaine <br/> 64140 BILLERE</p>
+                                <p>Joannie RICHARD <br/> 21 rue de la plaine <br/> 64140 BILLERE</p>
                                     <img src="img/icon_place.png" alt="" class="icon" id="address" />
                             </div>
 
                             <div class="row">
                                 <p>06 24 74 54 17
-                                    <img src="img/icon_phone.png" alt="" class="icon" id="phone"/>
+                                    <img src="img/icon_phone.png" alt="" class="icon" id="tel"/>
 
                                 </p>
                             </div>
